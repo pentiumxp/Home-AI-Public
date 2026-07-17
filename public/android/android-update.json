@@ -1,8 +1,8 @@
 {
-  "versionCode": 32,
-  "versionName": "0.4.28",
-  "apkUrl": "https://wardrobe-xuxin.synology.me:8555/android/HomeAI-Android-native-shell-debug-20260621.apk",
-  "sha256": "1730f53e2c2ea364bd2e27da2aa8590c8a62ac99502b360d22ccdaa480ca884c",
-  "size": 4169794,
-  "notes": "Home AI Android native shell v0.4.28: adds an outbound native share bridge for Home AI reply and learning-card PNG images. Web can call HomeAINativeShare.share(request), and the shell writes a bounded verified PNG to cache and opens the Android ACTION_SEND chooser with a FileProvider content URI. Existing inbound system share intake remains unchanged."
+  "versionCode": 36,
+  "versionName": "0.4.32",
+  "apkUrl": "https://wardrobe-xuxin.synology.me:8555/android/HomeAI-Android-native-shell-debug-0.4.32.apk",
+  "sha256": "c73e89225500125d69696190c111d5752f93cbb2e4e86e04595ffd853408bbac",
+  "size": 4178098,
+  "notes": "Home AI Android native shell v0.4.32: reserves a bounded right-edge gesture region for the Codex Mobile thread-detail side-chat swipe while preserving left-edge and remaining right-edge system Back behavior. Notification display now checks POST_NOTIFICATIONS before posting on Android 13+."
 }
